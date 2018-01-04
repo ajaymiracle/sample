@@ -44,5 +44,6 @@ getCompletedConferences(): Observable<any> {
 handleError(error: Response) {
   console.log(JSON.stringify(error)) ;
   return Observable.throw(error || 'Server error');
+  
 }
 }
